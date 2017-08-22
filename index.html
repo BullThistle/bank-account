@@ -11,19 +11,29 @@
   </head>
   <body>
     <div class="container">
-      <h1>Movie Tickets</h1>
+      <h1>Bank Account</h1>
     </div>
-    <form id="bankIn">
+    <form id="reg">
       <div class="form-group">
         First name: <input type="text" id="name"><br>
         Initial Deposit: <input type="text" id="initDeposit"><br>
       </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+    <form id="dep">
       <div class="form-group">
-        Deposit Amount: <input type="text" id="deposit"><br>
+        Deposit Amount: <input type="text" id="depoIn"><br>
+      </div>
+      <button type="submit" class="btn">Deposit</button>
+    </form>
+
+    <form id="withD">
+      <div class="form-group">
         Withdrawal Amount: <input type="text" id="withdrawal"><br>
       </div>
-      <button type="submit" name="button">Deposit</button>
+      <button type="submit" class="btn">Withdrawal</button>
     </form>
+
     <h3>Current Balance: </h3>
     <br>
     <p id="balanceOut"></p>
